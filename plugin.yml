@@ -1,0 +1,11 @@
+name: JarFetcher
+version: 1.0.0
+main: com.fetcher.JarFetcher
+api-version: '1.20'
+author: fetcher
+description: A lightweight utility to fetch jar files directly into the plugins directory.
+commands:
+  getjar:
+    description: Download a jar file from an HTTP/HTTPS URL into the plugins directory.
+    permission: op
+    usage: /getjar <url> <filename.jar>
